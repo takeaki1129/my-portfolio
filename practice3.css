@@ -1,0 +1,374 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+div {
+	display: block;
+}
+
+
+/*ここから*/
+h1, h2 {
+    font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    color: rgb(0, 0, 0);
+    font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+    background: rgb(255, 255, 255);
+    margin:0 auto;
+}
+
+li {
+	list-style: none;
+}
+
+header .top-logo {
+	float: right;
+	position: fixed;
+	top: 0;
+	left: 66%;
+	width: 100%;
+	z-index: 500;
+	background-color: white;
+	opacity: 0.7;
+}
+
+
+header li {
+	float: left;
+	padding:45px 13px 20px 10px;
+	list-style: none;
+ }
+
+a {
+	color: blue;
+}
+
+header a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #000;
+	opacity: 0.7;
+}
+
+
+header a:hover {
+	text-decoration: underline;
+	opacity: 1;
+}
+
+header {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	height: 568px;
+}
+
+header img {
+	position: absolute;
+	left: 50%;
+	width: 1280px;
+	height: 568px;
+	margin-left: -640px;
+}
+
+
+
+.photo-logo {
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	color: white;
+	line-height: 1.2;
+	text-align: center;
+}
+
+.photo-logo h1 {
+	font-size: 40px;
+	margin-bottom: 20px;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+}
+
+.photo-logo h2 {
+	font-weight: normal;
+	font-size: 20px;
+	font-family: 'Josefin Sans', 'Noto Sans JP',serif;
+}
+
+.main-wrapper {
+	width: 60%;
+	margin:0 auto;
+	text-align: center;
+}
+
+.main-wrapper h1 {
+	font-size: 22px;
+	padding:70px 0 20px 0;
+	font-weight: normal;
+}
+
+.main-wrapper p {
+	text-align: left;
+	padding-bottom: 80px;
+}
+
+.message-wrapper {
+	width: 100%;
+}
+
+.message-contents {
+	display: flex;
+	background-color: #f6f6f6;
+}
+
+.message-contents img {
+	width: 50%;
+	height: auto;
+}
+
+.message-sentences {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.message-sentences h1 {
+	font-size: 22px;
+	padding-bottom: 20px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.message-sentences p {
+	width: 70%;
+	margin:0 auto;
+	text-align: left;
+	font-size:14px;
+}
+
+.bottom-logo {
+	display: flex;
+	width: 72%;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.photoshop {
+	width: 100%;
+	text-align: center;
+}
+
+.photoshop h1 {
+	text-align: center;
+	font-size: 22px;
+	padding: 50px 0 20px 0;
+}
+
+.photoshop img {
+	width: 84%;
+	height: auto;
+	margin: 0 auto;
+}
+
+.photoshop p {
+	margin:0 auto;
+	text-align: left;
+	width: 88%;
+	font-size: 14px;
+	padding-top: 15px;
+}
+
+#sec01 {
+	margin-top: 130px;
+	background: url('bgSec04.jpg') no-repeat 100% 100% fixed;
+	width: 1430px;
+	height: 420px;
+}
+
+.col2 {
+	width: 66.6666%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.col2 li {
+	width: 45%;
+	margin: 0 auto;
+	color: white;
+	font-size: 14px;
+	padding-top: 10%;
+}
+
+.col2 h2 {
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	padding-bottom:28px;
+}
+
+.footer-wrapper {
+	display: flex;
+	position: relative;
+	padding-top:145px;
+	margin-bottom: 120px;
+}
+
+.footer {
+	display: flex;
+	width: 30%;
+	padding-left: 20%;
+	font-weight: normal;
+}
+
+.sec02 {
+	text-align: right;
+	padding-right: 10%;
+}
+
+.sec03 {
+	text-align: left;
+}
+
+.sec02 li {
+	padding-bottom: 10px;
+}
+
+.sec03 li {
+	padding-bottom: 10px;
+}
+
+.sec03 a {
+	text-decoration: none;
+}
+
+.sec03 a:hover {
+	text-decoration: underline;
+}
+
+iframe {
+	position: absolute;
+	width: 30%;
+	height: 70%;
+	left: 50%;
+	padding-right: 20%;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer h3 {
+	text-align: center;
+	padding-bottom: 70px;
+	padding-right: 10px;
+	font-size: 12px;
+	font-weight:normal;
+	padding-top:100px;
+}
